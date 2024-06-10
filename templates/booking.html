@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Book an Appointment</h2>
+<form method="post" action="{{ url_for('book_appointment') }}">
+    <!-- Form fields for booking an appointment -->
+    <button type="submit">Book Appointment</button>
+</form>
+{% endblock %}
